@@ -1,0 +1,283 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kebbet plugins - Custom Post Type: Archive\n"
+"POT-Creation-Date: 2021-06-05 21:21+0200\n"
+"PO-Revision-Date: 2021-06-05 21:25+0200\n"
+"Last-Translator: Erik Betshammar <info@verkan.se>\n"
+"Language-Team: Erik Betshammar <info@verkan.se>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: kebbet-cpt-archive.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: inc/admin-columns.php:39
+msgid "Last modified"
+msgstr "Senast ändrat"
+
+#: inc/admin-columns.php:40 kebbet-cpt-archive.php:82
+msgid "Featured image"
+msgstr "Utvald bild"
+
+#: inc/admin-columns.php:71
+msgid "No image is set."
+msgstr "Ingen bild har angetts."
+
+#. translators: %s: counter of how many posts.
+#: inc/at-a-glance.php:34
+#, php-format
+msgid "%s archive post"
+msgid_plural "%s archive posts"
+msgstr[0] "%s arkivinlägg"
+msgstr[1] "%s arkivinlägg"
+
+#: kebbet-cpt-archive.php:66
+msgctxt "Post Type General Name"
+msgid "Archive"
+msgstr "Arkiv"
+
+#: kebbet-cpt-archive.php:67
+msgctxt "Post Type Singular Name"
+msgid "Archive"
+msgstr "Arkiv"
+
+#: kebbet-cpt-archive.php:68
+msgid "Archive"
+msgstr "Arkiv"
+
+#: kebbet-cpt-archive.php:69
+msgid "Archive post"
+msgstr "Arkivinlägg"
+
+#: kebbet-cpt-archive.php:70
+msgid "Parent post:"
+msgstr "Överordnat inlägg:"
+
+#: kebbet-cpt-archive.php:71
+msgid "All posts"
+msgstr "Alla inlägg"
+
+#: kebbet-cpt-archive.php:72
+msgid "Add new"
+msgstr "Lägg till nytt"
+
+#: kebbet-cpt-archive.php:73
+msgid "Add new post"
+msgstr "Lägg till nytt inlägg"
+
+#: kebbet-cpt-archive.php:74
+msgid "New post"
+msgstr "Nytt inlägg"
+
+#: kebbet-cpt-archive.php:75
+msgid "Edit post"
+msgstr "Redigera inlägg"
+
+#: kebbet-cpt-archive.php:76
+msgid "Update post"
+msgstr "Uppdatera inlägg"
+
+#: kebbet-cpt-archive.php:77
+msgid "View post"
+msgstr "Visa inlägg"
+
+#: kebbet-cpt-archive.php:78
+msgid "View posts"
+msgstr "Visa inlägg"
+
+#: kebbet-cpt-archive.php:79
+msgid "Search posts"
+msgstr "Sök inlägg"
+
+#: kebbet-cpt-archive.php:80
+msgid "Not found"
+msgstr "Hittade inga inlägg"
+
+#: kebbet-cpt-archive.php:81
+msgid "No posts found in Trash"
+msgstr "Inga inlägg hittades i papperskorgen"
+
+#: kebbet-cpt-archive.php:83
+msgid "Set featured image"
+msgstr "Ange utvald bild"
+
+#: kebbet-cpt-archive.php:84
+msgid "Remove featured image"
+msgstr "Ta bort utvald bild"
+
+#: kebbet-cpt-archive.php:85
+msgid "Use as featured image"
+msgstr "Använd som utvald bild"
+
+#: kebbet-cpt-archive.php:86
+msgid "Insert into item"
+msgstr "Infoga till inlägg"
+
+#: kebbet-cpt-archive.php:87
+msgid "Uploaded to this post"
+msgstr "Uppladdad till detta inlägg"
+
+#: kebbet-cpt-archive.php:88
+msgid "Items list"
+msgstr "Objektlista"
+
+#: kebbet-cpt-archive.php:89
+msgid "Items list navigation"
+msgstr "Navigering för objektlista"
+
+#: kebbet-cpt-archive.php:90
+msgid "Filter items list"
+msgstr "Filtrera objektlista"
+
+#: kebbet-cpt-archive.php:91
+msgid "Archive posts archive"
+msgstr "Arkivinläggs-arkiv"
+
+#: kebbet-cpt-archive.php:92
+msgid "Archive post attributes"
+msgstr "Attribut för arkivinlägg"
+
+#: kebbet-cpt-archive.php:93
+msgid "Post published"
+msgstr "Inlägget publicerat"
+
+#: kebbet-cpt-archive.php:94
+msgid "Post published privately"
+msgstr "Inlägget publicerades privat"
+
+#: kebbet-cpt-archive.php:95
+msgid "Post reverted to Draft"
+msgstr "Inlägget återställdes till utkast"
+
+#: kebbet-cpt-archive.php:96
+msgid "Post scheduled"
+msgstr "Inlägget schemalagt"
+
+#: kebbet-cpt-archive.php:97
+msgid "Post updated"
+msgstr "Inlägg uppdaterat"
+
+#: kebbet-cpt-archive.php:122
+msgid "Archive post type"
+msgstr "Arkivinläggstyp"
+
+#: kebbet-cpt-archive.php:123
+msgid "Custom post type for archive posts"
+msgstr "Anpassad inläggstyp för arkivinlägg"
+
+#: kebbet-cpt-archive.php:193 kebbet-cpt-archive.php:196
+msgid "Post updated."
+msgstr "Inlägget uppdaterades."
+
+#: kebbet-cpt-archive.php:194
+msgid "Custom field updated."
+msgstr "Anpassat fält uppdaterat."
+
+#: kebbet-cpt-archive.php:195
+msgid "Custom field deleted."
+msgstr "Anpassat fält borttaget."
+
+#. translators: %s: date and time of the revision
+#: kebbet-cpt-archive.php:198
+#, php-format
+msgid "Post restored to revision from %s"
+msgstr "Inlägget har återställts till version från %s"
+
+#: kebbet-cpt-archive.php:199
+msgid "Post published."
+msgstr "Inlägget publicerat."
+
+#: kebbet-cpt-archive.php:200
+msgid "Post saved."
+msgstr "Inlägget sparat."
+
+#: kebbet-cpt-archive.php:201
+msgid "Post submitted."
+msgstr "Inlägget inlagt."
+
+#. translators: %1$s: date and time of the scheduled post
+#: kebbet-cpt-archive.php:204
+#, php-format
+msgid "Post scheduled for: <strong>%1$s</strong>."
+msgstr "Inlägget är schemalagt till: <strong>%1$s</strong>."
+
+#: kebbet-cpt-archive.php:205
+msgid "M j, Y @ G:i"
+msgstr "Y M D @ H:i"
+
+#: kebbet-cpt-archive.php:207
+msgid "Post draft updated."
+msgstr "Utkast uppdaterades."
+
+#: kebbet-cpt-archive.php:215
+msgid "View Post"
+msgstr "Visa inlägg"
+
+#: kebbet-cpt-archive.php:221
+msgid "Preview Post"
+msgstr "Förhandsgranska inlägg"
+
+#. translators: %$1s: singular of posts, %$2s: plural of posts.
+#: kebbet-cpt-archive.php:247
+msgid "%$1s post updated."
+msgid_plural "%$2s posts updated."
+msgstr[0] "%$1s inlägg uppdaterat."
+msgstr[1] "%2$s inlägg uppdaterades."
+
+#. translators: %$1s: singular of posts, %$2s: plural of posts.
+#: kebbet-cpt-archive.php:249
+msgid "%$1s post not updated, somebody is editing it."
+msgid_plural "%$2s posts not updated, somebody is editing them."
+msgstr[0] "%$1s inlägg uppdaterades inte, någon redigerar det."
+msgstr[1] "%$2s inlägg uppdaterades inte, någon redigerar dem."
+
+#. translators: %$1s: singular of posts, %$2s: plural of posts.
+#: kebbet-cpt-archive.php:251
+msgid "%$1s post permanently deleted."
+msgid_plural "%$2s posts permanently deleted."
+msgstr[0] "%$1s inlägg togs bort permanent."
+msgstr[1] "%$2s inlägg togs bort permanent."
+
+#. translators: %$1s: singular of posts, %$2s: plural of posts.
+#: kebbet-cpt-archive.php:253
+msgid "%$1s post moved to the Trash."
+msgid_plural "%$2s posts moved to the Trash."
+msgstr[0] "%$1s inlägg flyttades till papperskorgen."
+msgstr[1] "%$2s inlägg flyttades till papperskorgen."
+
+#. translators: %$1s: singular of posts, %$2s: plural of posts.
+#: kebbet-cpt-archive.php:255
+msgid "%$1s post restored from the Trash."
+msgid_plural "%$2s posts restored from the Trash."
+msgstr[0] "%$1s inlägg återställdes från papperskorgen."
+msgstr[1] "%$2s inlägg återställdes från papperskorgen."
+
+#. Plugin Name of the plugin/theme
+msgid "Kebbet plugins - Custom Post Type: Archive"
+msgstr "Kebbet plugins - Anpassad inläggstyp: Arkiv"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/kebbet/kebbet-cpt-archive"
+msgstr "https://github.com/kebbet/kebbet-cpt-archive"
+
+#. Description of the plugin/theme
+msgid "Registers a Custom Post Type."
+msgstr "Registrerar en anpassad inläggstyp."
+
+#. Author of the plugin/theme
+msgid "Erik Betshammar"
+msgstr "Erik Betshammar"
+
+#. Author URI of the plugin/theme
+msgid "https://verkan.se"
+msgstr "https://verkan.se"
