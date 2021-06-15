@@ -15,7 +15,7 @@ namespace kebbet\cpt\archive;
 const POSTTYPE = 'event-archive';
 const SLUG     = 'archive';
 const ICON     = 'archive';
-const MENUPOS  = 7;
+const MENUPOS  = 23;
 
 /**
  * Link to ICONS
