@@ -99,6 +99,10 @@ function register() {
 		'item_reverted_to_draft'   => __( 'Post reverted to Draft', 'kebbet-cpt-archive' ),
 		'item_scheduled'           => __( 'Post scheduled', 'kebbet-cpt-archive' ),
 		'item_updated'             => __( 'Post updated', 'kebbet-cpt-archive' ),
+		// 5.7 + 5.8
+		'filter_by_date'           => __( 'Filter posts by date', 'kebbet-cpt-archive' ),
+		'item_link'                => __( 'Archive post link', 'kebbet-cpt-archive' ),
+		'item_link_description'    => __( 'A link to an archive post', 'kebbet-cpt-archive' ),
 	);
 
 	$supports_args = array(
