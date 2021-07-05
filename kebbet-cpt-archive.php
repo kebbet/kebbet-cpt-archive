@@ -12,10 +12,10 @@
 
 namespace kebbet\cpt\archive;
 
-const POSTTYPE = 'event-archive';
-const SLUG     = 'archive';
-const ICON     = 'archive';
-const MENUPOS  = 23;
+const POSTTYPE  = 'event-archive';
+const SLUG      = 'archive';
+const ICON      = 'archive';
+const MENUPOS   = 10;
 const THUMBNAIL = true;
 
 /**
@@ -137,7 +137,7 @@ function register() {
 		'description'         => __( 'Custom post type for archive posts', 'kebbet-cpt-archive' ),
 		'labels'              => $labels_args,
 		'supports'            => $supports_args,
-		'taxonomies'          => array(),
+		'taxonomies'          => array( 'category' ),
 		'hierarchical'        => false,
 		'public'              => true,
 		'show_ui'             => true,
