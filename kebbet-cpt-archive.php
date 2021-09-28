@@ -3,7 +3,7 @@
  * Plugin Name: Kebbet plugins - Custom Post Type: Archive
  * Plugin URI: https://github.com/kebbet/kebbet-cpt-archive
  * Description: Registers a Custom Post Type.
- * Version: 20210519.02
+ * Version: 20210928.1
  * Author: Erik Betshammar
  * Author URI: https://verkan.se
  *
@@ -167,6 +167,7 @@ function add_custom_capabilities() {
 	// Gets the editor and administrator roles.
 	$admins = get_role( 'administrator' );
 	$editor = get_role( 'editor' );
+	$author = get_role( 'author' );
 
 	// Add custom capabilities.
 	$admins->add_cap( 'edit_' . POSTTYPE );
@@ -184,6 +185,13 @@ function add_custom_capabilities() {
 	$editor->add_cap( 'read_' . POSTTYPE .'s' );
 	$editor->add_cap( 'read_private_' . POSTTYPE .'s' );
 	$editor->add_cap( 'delete_' . POSTTYPE );
+
+	$author->add_cap( 'edit_' . POSTTYPE );
+	$author->add_cap( 'edit_' . POSTTYPE .'s' );
+	$author->add_cap( 'publish_' . POSTTYPE .'s' );
+	$author->add_cap( 'read_' . POSTTYPE .'s' );
+	$author->add_cap( 'read_private_' . POSTTYPE .'s' );
+	$author->add_cap( 'delete_' . POSTTYPE );
 }
 add_action( 'admin_init', __NAMESPACE__ . '\add_custom_capabilities');
 
