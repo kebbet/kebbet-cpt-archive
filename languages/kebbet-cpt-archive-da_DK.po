@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kebbet plugins - Custom Post Type: Archive\n"
-"POT-Creation-Date: 2021-08-09 10:12+0200\n"
-"PO-Revision-Date: 2021-08-09 10:15+0200\n"
+"POT-Creation-Date: 2022-02-16 20:35+0100\n"
+"PO-Revision-Date: 2022-02-16 20:38+0100\n"
 "Last-Translator: Erik Betshammar <info@verkan.se>\n"
 "Language-Team: Erik Betshammar <info@verkan.se>\n"
 "Language: da_DK\n"
@@ -187,92 +187,97 @@ msgstr "Arkivindlægtype"
 msgid "Custom post type for archive posts"
 msgstr "Brugerdefineret indlægstype til arkivindlæg"
 
-#: kebbet-cpt-archive.php:207 kebbet-cpt-archive.php:210
+#: kebbet-cpt-archive.php:215 kebbet-cpt-archive.php:218
 msgid "Post updated."
 msgstr "Indlæg opdateret."
 
-#: kebbet-cpt-archive.php:208
+#: kebbet-cpt-archive.php:216
 msgid "Custom field updated."
 msgstr "Brugerdefineret felt opdateret."
 
-#: kebbet-cpt-archive.php:209
+#: kebbet-cpt-archive.php:217
 msgid "Custom field deleted."
 msgstr "Brugerdefineret felt slettet."
 
 #. translators: %s: date and time of the revision
-#: kebbet-cpt-archive.php:212
+#: kebbet-cpt-archive.php:220
 #, php-format
 msgid "Post restored to revision from %s"
 msgstr "Post gendannet til revision fra %s"
 
-#: kebbet-cpt-archive.php:213
+#: kebbet-cpt-archive.php:221
 msgid "Post published."
 msgstr "Indlæg udgivet."
 
-#: kebbet-cpt-archive.php:214
+#: kebbet-cpt-archive.php:222
 msgid "Post saved."
 msgstr "Indlæg gemt."
 
-#: kebbet-cpt-archive.php:215
+#: kebbet-cpt-archive.php:223
 msgid "Post submitted."
 msgstr "Indlæg indsendt."
 
 #. translators: %1$s: date and time of the scheduled post
-#: kebbet-cpt-archive.php:218
+#: kebbet-cpt-archive.php:226
 #, php-format
 msgid "Post scheduled for: <strong>%1$s</strong>."
 msgstr ""
 
-#: kebbet-cpt-archive.php:219
+#: kebbet-cpt-archive.php:227
 msgid "M j, Y @ G:i"
 msgstr ""
 
-#: kebbet-cpt-archive.php:221
+#: kebbet-cpt-archive.php:229
 msgid "Post draft updated."
 msgstr "Indlægskladde opdateret."
 
-#: kebbet-cpt-archive.php:229
+#: kebbet-cpt-archive.php:237
 msgid "View Post"
 msgstr "Vis indlæg"
 
-#: kebbet-cpt-archive.php:235
+#: kebbet-cpt-archive.php:243
 msgid "Preview Post"
-msgstr ""
+msgstr "Forhåndsvis indlægget"
 
-#. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-archive.php:261
-msgid "%$1s post updated."
-msgid_plural "%$2s posts updated."
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-archive.php:263
-msgid "%$1s post not updated, somebody is editing it."
-msgid_plural "%$2s posts not updated, somebody is editing them."
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-archive.php:265
-msgid "%$1s post permanently deleted."
-msgid_plural "%$2s posts permanently deleted."
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: %$1s: singular of posts, %$2s: plural of posts.
-#: kebbet-cpt-archive.php:267
-msgid "%$1s post moved to the Trash."
-msgid_plural "%$2s posts moved to the Trash."
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: %$1s: singular of posts, %$2s: plural of posts.
+#. translators: %s: singular of posts, %$s: plural of posts.
 #: kebbet-cpt-archive.php:269
-msgid "%$1s post restored from the Trash."
-msgid_plural "%$2s posts restored from the Trash."
-msgstr[0] ""
-msgstr[1] ""
+#, php-format
+msgid "%s post updated."
+msgid_plural "%s posts updated."
+msgstr[0] "%s indlæg opdateret."
+msgstr[1] "%s indlæg opdateret."
+
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: kebbet-cpt-archive.php:271
+#, php-format
+msgid "%s post not updated, somebody is editing it."
+msgid_plural "%s posts not updated, somebody is editing them."
+msgstr[0] "%s indlæg ikke opdateret, nogen redigerer det."
+msgstr[1] "%s indlæg ikke opdateret, nogen redigerer det."
+
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: kebbet-cpt-archive.php:273
+#, php-format
+msgid "%s post permanently deleted."
+msgid_plural "%s posts permanently deleted."
+msgstr[0] "%s indlæg slettet permanent."
+msgstr[1] "%s indlæg slettet permanent."
+
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: kebbet-cpt-archive.php:275
+#, php-format
+msgid "%s post moved to the Trash."
+msgid_plural "%s posts moved to the Trash."
+msgstr[0] "%s indlæg flyttet til papirkurven."
+msgstr[1] "%s indlæg flyttet til papirkurven."
+
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: kebbet-cpt-archive.php:277
+#, php-format
+msgid "%s post restored from the Trash."
+msgid_plural "%s posts restored from the Trash."
+msgstr[0] "%s indlæg gendannet fra papirkurven."
+msgstr[1] "%s indlæg gendannet fra papirkurven."
 
 #. Plugin Name of the plugin/theme
 msgid "Kebbet plugins - Custom Post Type: Archive"

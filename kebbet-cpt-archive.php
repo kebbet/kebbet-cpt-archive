@@ -265,16 +265,16 @@ add_filter( 'post_updated_messages', __NAMESPACE__ . '\post_updated_messages' );
 function bulk_post_updated_messages( $bulk_messages, $bulk_counts ) {
 
 	$bulk_messages[ POSTTYPE ] = array(
-		/* translators: %$1s: singular of posts, %$2s: plural of posts.  */
-		'updated'   => _n( '%$1s post updated.', '%$2s posts updated.', $bulk_counts['updated'], 'kebbet-cpt-archive' ),
-		/* translators: %$1s: singular of posts, %$2s: plural of posts.  */
-		'locked'    => _n( '%$1s post not updated, somebody is editing it.', '%$2s posts not updated, somebody is editing them.', $bulk_counts['locked'], 'kebbet-cpt-archive' ),
-		/* translators: %$1s: singular of posts, %$2s: plural of posts.  */
-		'deleted'   => _n( '%$1s post permanently deleted.', '%$2s posts permanently deleted.', $bulk_counts['deleted'], 'kebbet-cpt-archive' ),
-		/* translators: %$1s: singular of posts, %$2s: plural of posts.  */
-		'trashed'   => _n( '%$1s post moved to the Trash.', '%$2s posts moved to the Trash.', $bulk_counts['trashed'], 'kebbet-cpt-archive' ),
-		/* translators: %$1s: singular of posts, %$2s: plural of posts.  */
-		'untrashed' => _n( '%$1s post restored from the Trash.', '%$2s posts restored from the Trash.', $bulk_counts['untrashed'], 'kebbet-cpt-archive' ),
+		/* translators: %s: singular of posts, %$s: plural of posts.  */
+		'updated'   => _n( '%s post updated.', '%s posts updated.', number_format_i18n( $bulk_counts['updated'] ), 'kebbet-cpt-archive' ),
+		/* translators: %s: singular of posts, %$s: plural of posts.  */
+		'locked'    => _n( '%s post not updated, somebody is editing it.', '%s posts not updated, somebody is editing them.', number_format_i18n( $bulk_counts['locked'] ), 'kebbet-cpt-archive' ),
+		/* translators: %s: singular of posts, %$s: plural of posts.  */
+		'deleted'   => _n( '%s post permanently deleted.', '%s posts permanently deleted.', number_format_i18n( $bulk_counts['deleted'] ), 'kebbet-cpt-archive' ),
+		/* translators: %s: singular of posts, %$s: plural of posts.  */
+		'trashed'   => _n( '%s post moved to the Trash.', '%s posts moved to the Trash.', number_format_i18n( $bulk_counts['trashed'] ), 'kebbet-cpt-archive' ),
+		/* translators: %s: singular of posts, %$s: plural of posts.  */
+		'untrashed' => _n( '%s post restored from the Trash.', '%s posts restored from the Trash.', number_format_i18n( $bulk_counts['untrashed'] ), 'kebbet-cpt-archive' ),
 	);
 
 	return $bulk_messages;
