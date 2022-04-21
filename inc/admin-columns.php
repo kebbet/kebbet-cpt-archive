@@ -20,11 +20,11 @@ function column_order( $columns ) {
 	// Move thumbnail to before title column.
 	$before = 'title';
 
-	foreach ( $columns as $key => $value ) {
+	foreach ( $columns as $key => $column_value ) {
 		if ( $key === $before ) {
 			$n_columns['thumbnail'] = '';
 		}
-		$n_columns[ $key ] = $value;
+		$n_columns[ $key ] = $column_value;
 	}
 	return $n_columns;
 }
